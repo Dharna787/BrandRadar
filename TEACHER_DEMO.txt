@@ -1,0 +1,28 @@
+BRANDRADAR 4.0 — TEACHER / JUDGE DEMO
+
+OPEN:
+streamlit run app.py
+
+PITCH:
+"BrandRadar is an explainable digital threat command center. Instead of relying on one suspicious clue, it correlates identity, visual, domain, context and trust signals into a prioritized threat score and gives the analyst evidence for the next action."
+
+DEMO FLOW:
+1. Select MARS Cosmetics.
+2. Investigate: mars000.
+   -> Show look-alike detection.
+3. Attack Simulator.
+   -> Run Typosquatting domain.
+   -> Show multi-signal score.
+4. Threat Network.
+   -> Explain the relationship between the trusted brand, suspect asset, social surface, domain, app surface and fusion result.
+5. Model Evaluation.
+   -> Explain that the metrics are calculated live from the shipped synthetic scenarios.
+6. Investigation Report.
+   -> Download the Markdown report.
+7. Visual Shield if time allows.
+
+STRONG ANSWER IF ASKED "WHAT IS NEW?":
+"The project is not just a fake-account detector. It has a fusion layer, controlled attack simulation, explainable evidence, a relationship view and a reproducible evaluation layer. The architecture can later accept real approved feeds without changing the analyst workflow."
+
+IMPORTANT:
+Do not claim the synthetic evaluation metrics represent real-world fraud-detection accuracy.
